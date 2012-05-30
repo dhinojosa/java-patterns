@@ -5,7 +5,7 @@ import java.io.File;
 /**
  * @author John Ericksen
  */
-public class Demonstration {
+public class ObserverDemonstration {
 
     public static void main(String[] args) {
 

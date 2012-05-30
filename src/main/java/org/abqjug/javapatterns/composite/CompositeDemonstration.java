@@ -3,7 +3,7 @@ package org.abqjug.javapatterns.composite;
 /**
  * @author John Ericksen
  */
-public class CalculatorDemonstration {
+public class CompositeDemonstration {
 
     public static void main(String[] args) {
 

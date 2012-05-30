@@ -3,7 +3,7 @@ package org.abqjug.javapatterns.decorator;
 /**
  * @author John Ericksen
  */
-public class SundayDemonstration {
+public class DecoratorDemonstration {
 
     public static void main(String[] args) {
 
