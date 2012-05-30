@@ -3,10 +3,9 @@ package org.abqjug.javapatterns.proxy;
 /**
  * @author John Ericksen
  */
-public interface Payment {
+public interface Target {
 
-    int withdraw();
+    void callMe();
 
-    int getAmount();
-
+    void takeSomeTime();
 }

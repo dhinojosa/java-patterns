@@ -1,4 +1,4 @@
-package org.abqjug.javapatterns.proxy;
+package org.abqjug.javapatterns.proxy.payment;
 
 /**
  * @author John Ericksen
