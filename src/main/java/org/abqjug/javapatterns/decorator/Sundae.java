@@ -3,8 +3,8 @@ package org.abqjug.javapatterns.decorator;
 /**
  * @author John Ericksen
  */
-public interface Sunday {
+public interface Sundae {
 
-    String describeSunday();
+    String describeSundae();
 
 }

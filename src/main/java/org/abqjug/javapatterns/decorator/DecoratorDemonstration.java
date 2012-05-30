@@ -7,20 +7,20 @@ public class DecoratorDemonstration {
 
     public static void main(String[] args) {
 
-        Sunday sunday = new NutsSundayDecorator(
-                new FudgeSundayDecorator(
-                        new WhipcreamSundayDecorator(
+        Sundae sundae = new NutsSundaeDecorator(
+                new FudgeSundaeDecorator(
+                        new WhipcreamSundaeDecorator(
                                 new VanillaIceCream()
                         )
                 )
         );
 
-        System.out.println(sunday.describeSunday());
+        System.out.println(sundae.describeSundae());
 
         //add a cherry
 
-        sunday = new CherryOnTopDecorator(sunday);
+        sundae = new CherryOnTopDecorator(sundae);
 
-        System.out.println(sunday.describeSunday());
+        System.out.println(sundae.describeSundae());
     }
 }

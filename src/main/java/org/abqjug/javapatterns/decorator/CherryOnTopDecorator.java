@@ -3,12 +3,12 @@ package org.abqjug.javapatterns.decorator;
 /**
  * @author John Ericksen
  */
-public class CherryOnTopDecorator extends SundayDecorator {
-    public CherryOnTopDecorator(Sunday sunday) {
-        super(sunday);
+public class CherryOnTopDecorator extends SundaeDecorator {
+    public CherryOnTopDecorator(Sundae sundae) {
+        super(sundae);
     }
 
-    public String describeSunday() {
-        return getDecorated().describeSunday() + " with a Cherry on top";
+    public String describeSundae() {
+        return getDecorated().describeSundae() + " with a Cherry on top";
     }
 }
