@@ -14,7 +14,8 @@ public class Check implements Payment {
     }
 
     public int withdraw() {
-        return bankAccount.withdraw(amount).withdraw();
+        Payment withdraw = bankAccount.withdraw(amount);
+        return withdraw.withdraw();
     }
 
     public int getAmount() {
