@@ -8,5 +8,8 @@ package org.abqjug.javapatterns.singleton.eager;
 public class EagerSingletonClient {
     public static void main(String[] args) {
         EagerSingleton eagerSingleton = EagerSingleton.getInstance();
+        EagerSingleton eagerSingleton2 = EagerSingleton.getInstance();
+
+        assert eagerSingleton == eagerSingleton2;
     }
 }
