@@ -23,6 +23,7 @@ public class LoggingObserver implements RSSObserver {
 
         try {
             log.write(entry.getValue());
+            log.write('\n');
             log.flush();
         } catch (IOException e) {
             e.printStackTrace();

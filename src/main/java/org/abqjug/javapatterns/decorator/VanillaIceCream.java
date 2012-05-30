@@ -5,6 +5,6 @@ package org.abqjug.javapatterns.decorator;
  */
 public class VanillaIceCream implements Sunday {
     public String describeSunday() {
-        return "Vanilla";
+        return "Vanilla Ice Cream";
     }
 }

@@ -3,7 +3,7 @@ package org.abqjug.javapatterns.decorator;
 /**
  * @author John Ericksen
  */
-public class SundayMaker {
+public class SundayDemonstration {
 
     public static void main(String[] args) {
 
@@ -14,6 +14,12 @@ public class SundayMaker {
                         )
                 )
         );
+
+        System.out.println(sunday.describeSunday());
+
+        //add a cherry
+
+        sunday = new CherryOnTopDecorator(sunday);
 
         System.out.println(sunday.describeSunday());
     }
