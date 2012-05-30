@@ -1,13 +1,13 @@
-package org.abqjug.javapatterns.adaptor;
+package org.abqjug.javapatterns.adapter;
 
 /**
  * @author John Ericksen
  */
-public class CelciusToFerinheightAdaptor implements FerinheightThermometer {
+public class CelciusToFahrenheitAdapter implements FahrenheitThermometer {
 
     private CelciusThermometer celciusThermometer;
 
-    public CelciusToFerinheightAdaptor(CelciusThermometer celciusThermometer) {
+    public CelciusToFahrenheitAdapter(CelciusThermometer celciusThermometer) {
         this.celciusThermometer = celciusThermometer;
     }
 

@@ -1,4 +1,4 @@
-package org.abqjug.javapatterns.adaptor;
+package org.abqjug.javapatterns.adapter;
 
 /**
  * @author John Ericksen

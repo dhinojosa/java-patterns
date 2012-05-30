@@ -1,18 +1,18 @@
-package org.abqjug.javapatterns.adaptor;
+package org.abqjug.javapatterns.adapter;
 
 /**
  * @author John Ericksen
  */
-public class AdaptorDemonstration {
+public class AdapterDemonstration {
 
     public static void main(String args[]) {
 
         CelciusThermometer celciusThermometer = new CelciusThermometer(34);
 
-        FerinheightThermometer thermometer = new CelciusToFerinheightAdaptor(celciusThermometer);
+        FahrenheitThermometer thermometer = new CelciusToFahrenheitAdapter(celciusThermometer);
 
         System.out.println(
                 "Celcius: " + celciusThermometer.getTemperateInC() +
-                        " Ferinheight: " + thermometer.getTemperateInF());
+                        " Fahrenheit: " + thermometer.getTemperateInF());
     }
 }
