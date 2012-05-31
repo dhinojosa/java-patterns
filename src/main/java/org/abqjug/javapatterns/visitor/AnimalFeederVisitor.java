@@ -19,4 +19,9 @@ public class AnimalFeederVisitor implements AnimalVisitor {
     public void visit(Bear bear) {
         bear.feed(new Meat());
     }
+
+    @Override
+    public void visit(Monkey monkey) {
+        monkey.feed(new Banana());
+    }
 }

@@ -7,7 +7,12 @@ public class PuzzleBuilder {
 
     public static void main(String[] args) {
 
+        PuzzlePiece3Proxy puzzle3 = new PuzzlePiece3Proxy();
+        PuzzlePiece2 puzzle2 = new PuzzlePiece2(puzzle3);
+        PuzzlePiece1 puzzle1 = new PuzzlePiece1(puzzle2);
 
+
+        puzzle3.setProxied(new PuzzlePiece3Impl(puzzle1));
     }
 
     /*

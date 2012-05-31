@@ -19,8 +19,12 @@ public class DecoratorDemonstration {
 
         //add a cherry
 
-        sundae = new CherryOnTopDecorator(sundae);
+        Sundae cherryOnTopDecorator = new CherryOnTopDecorator(sundae);
 
-        System.out.println(sundae.describeSundae());
+        System.out.println(cherryOnTopDecorator.describeSundae());
+
+        Sundae filteredFudge = new FudgeFilterDecorator(cherryOnTopDecorator);
+
+        System.out.println(filteredFudge.describeSundae());
     }
 }

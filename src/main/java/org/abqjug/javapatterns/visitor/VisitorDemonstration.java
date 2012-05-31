@@ -37,6 +37,7 @@ public class VisitorDemonstration {
         zoo.add(new Bear());
         zoo.add(new Elephant());
         zoo.add(new Zebra());
+        zoo.add(new Monkey());
 
         Collections.shuffle(zoo);
 

@@ -13,9 +13,9 @@ public class ProxyDemonstration {
         target.takeSomeTime();
 
         System.out.println("Added Proxy");
-        target = new LoggingProxy(target);
+        Target targetProxy = new LoggingProxy(target);
 
-        target.callMe();
-        target.takeSomeTime();
+        targetProxy.callMe();
+        targetProxy.takeSomeTime();
     }
 }

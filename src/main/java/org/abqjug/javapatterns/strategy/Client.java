@@ -18,7 +18,8 @@ public class Client {
         integers.add(1);
         integers.add(2);
         integers.add(3);
+        integers.add(4);
 
-        assert numberAccumulator.accumulate(integers) == 6;
+        assert numberAccumulator.accumulate(integers) == 24;
     }
 }

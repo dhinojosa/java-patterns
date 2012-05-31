@@ -12,4 +12,6 @@ public interface AnimalVisitor {
     void visit(Zebra zebra);
 
     void visit(Bear bear);
+
+    void visit(Monkey monkey);
 }

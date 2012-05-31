@@ -19,4 +19,9 @@ public class AnimalNameVisitor implements AnimalVisitor {
     public void visit(Bear bear) {
         System.out.println("Bear");
     }
+
+    @Override
+    public void visit(Monkey monkey) {
+        System.out.println("Monkey");
+    }
 }
