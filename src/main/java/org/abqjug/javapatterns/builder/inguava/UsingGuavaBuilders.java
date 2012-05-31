@@ -1,5 +1,10 @@
 package org.abqjug.javapatterns.builder.inguava;
 
+import com.google.common.collect.ImmutableList;
+import com.google.common.collect.Lists;
+
+import javax.swing.*;
+
 /**
  * Created by Daniel Hinojosa
  * User: Daniel Hinojosa
@@ -12,5 +17,6 @@ package org.abqjug.javapatterns.builder.inguava;
 public class UsingGuavaBuilders {
 
    public static void main(String[] args) {
+      ImmutableList.builder().add(1).add(3,4,5).add(3).build();
    }
 }
