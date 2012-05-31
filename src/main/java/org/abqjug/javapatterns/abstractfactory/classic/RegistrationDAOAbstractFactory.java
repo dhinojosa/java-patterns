@@ -17,9 +17,4 @@ public abstract class RegistrationDAOAbstractFactory {
              return new OracleRegistrationDAOFactory();
          }
     }
-                                             
-
-    public abstract void setDataSource(DataSource ds);
-
-
 }
